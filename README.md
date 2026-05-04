@@ -121,23 +121,16 @@ Iteration 1 → Weak tweet ❌
 Iteration 2 → Improved 😐
 Iteration 3 → Viral tweet ✅
 ```
-
----
-
-## ⚠️ Important Notes
-
-* Do NOT push `.env` file (contains API keys)
-* Add `.env` to `.gitignore`
-
 ---
 
 ## 📌 Future Improvements
 
 * Add Streamlit UI
 * Deploy on HuggingFace / Vercel
-* Add tweet scoring metrics
-* Store results in database
-
+* Integrate X (Twitter) API to post tweets automatically
+* Implement advanced tweet scoring (engagement, sentiment, virality)
+* Add database support to store tweet history and analytics
+  
 ---
 
 ## 👨‍💻 Author

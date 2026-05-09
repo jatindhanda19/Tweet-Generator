@@ -1,20 +1,20 @@
-# 🧠 AI Tweet Generator Agent (LangGraph + Groq)
+# AI Tweet Generator Agent (LangGraph + Groq)
 
 An **agentic AI system** that generates, evaluates, and optimizes tweets using a multi-step workflow built with **LangGraph** and **Groq LLMs**.
 
 ---
 
-## 🚀 Features
+##  Features
 
-* 🧵 Generates viral-style tweets
-* 🧠 Evaluates tweets using AI critic
-* 🔁 Iteratively improves tweets
-* 📊 Maintains history (stateful workflow)
-* ⚡ Built using LangGraph (agentic execution)
+*  Generates viral-style tweets
+*  Evaluates tweets using AI critic
+*  Iteratively improves tweets
+*  Maintains history (stateful workflow)
+*  Built using LangGraph (agentic execution)
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 This project follows an **Agentic AI Loop**:
 
@@ -31,7 +31,7 @@ Generate → Evaluate → Optimize → Repeat
 
 ---
 
-## 🧩 Tech Stack
+##  Tech Stack
 
 * **LangGraph** → Workflow orchestration
 * **LangChain Core** → Message handling
@@ -40,7 +40,7 @@ Generate → Evaluate → Optimize → Repeat
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 .
@@ -53,7 +53,7 @@ Generate → Evaluate → Optimize → Repeat
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone repo
 
@@ -78,7 +78,7 @@ GROQ_API_KEY=your_api_key_here
 
 ---
 
-## ▶️ Run the Project
+##  Run the Project
 
 ```bash
 python main.py
@@ -86,7 +86,7 @@ python main.py
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ### 1. Tweet Generation
 
@@ -107,23 +107,23 @@ python main.py
 * If not approved → rewritten
 * Loop continues until:
 
-  * Approved ✅
+  * Approved 
   * Max iterations reached
 
 ---
 
-## 🔁 Example Flow
+##  Example Flow
 
 ```
 Topic: World War
 
-Iteration 1 → Weak tweet ❌
-Iteration 2 → Improved 😐
-Iteration 3 → Viral tweet ✅
+Iteration 1 → Weak tweet 
+Iteration 2 → Improved 
+Iteration 3 → Viral tweet 
 ```
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 * Add Streamlit UI
 * Deploy on HuggingFace / Vercel
@@ -133,13 +133,13 @@ Iteration 3 → Viral tweet ✅
   
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Jatin
 
 ---
 
-## 📜 License
+##  License
 
 MIT License (recommended)
 
